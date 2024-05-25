@@ -1,11 +1,11 @@
-package COMU_Havayolu_1;
+package COMU_Havayolu;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class dbConnection {
 	
-	public static final String DB_URL = "jdbc:mysql://localhost/deneme";
+	public static final String DB_URL = "jdbc:mysql://localhost/havayolu";
     public static final String DB_USER = "root";
     public static final String DB_PASSWORD = "";
     public static void main(String[] args) {
